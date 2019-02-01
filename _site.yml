@@ -1,0 +1,28 @@
+name: "RadixWebsite"
+title: "Dr. med. Hendrik Friederichs"
+favicon: images/favicon.png
+description: |
+  Sinn und Relevanz in der Medizin
+output_dir: "."
+navbar:
+  logo:
+    image: images/WWU_Logo_negativ.png
+    href: https://www.uni-muenster.de
+  right:
+    - text: "Person"
+      icon: fa-user
+      href: Friederichs.html
+    - text: "Schwimmen"
+      icon: fa-swimmer
+      href: Workshop_article.html
+    - text: "Arzt"
+      icon: fa-user-md
+      href: Friederichs.html
+    - text: "Beiträge"
+      icon: fa-archive
+      href: 
+    - text: "Blog"
+      icon: fa-rss
+      href: https://friedeh.github.io/Blog/
+      
+output: radix::radix_article
