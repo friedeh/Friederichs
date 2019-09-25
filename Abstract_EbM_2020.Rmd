@@ -2,10 +2,6 @@
 title: Künstliche Intelligenz (KI) zur Verbesserung der Ersteinschätzung der Infektiosität von Patienten mit Tuberkulose
 author: Friederichs H, Meyer-Oschatz F, Marschall B, Schaaf B, Unnewehr M
 date: 2019-09-25
-base_url: https://friedeh/github.io/Friederichs
-collections:
-  posts:
-    disqus: abstractebm2020
 bibliography: Papers_all.bib
 csl: biomed-central.csl
 ---
