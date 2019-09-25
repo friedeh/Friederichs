@@ -3,7 +3,7 @@ title: Künstliche Intelligenz (KI) zur Verbesserung der Ersteinschätzung der I
 author: Friederichs H, Meyer-Oschatz F, Marschall B, Schaaf B, Unnewehr M
 date: 2019-09-25
 output: 
-  html_document:
+  distill::distill_article:
     includes:
       after_body: disqus.html
 bibliography: Papers_all.bib
