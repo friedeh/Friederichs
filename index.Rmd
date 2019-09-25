@@ -1,6 +1,6 @@
 ---
 title: "Dr. med. Hendrik Friederichs"
-site: radix::radix_website
+site: distill::distill_website
 description: |
   Ich. Mensch. Arzt.
 
