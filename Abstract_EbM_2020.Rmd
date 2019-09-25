@@ -1,0 +1,23 @@
+---
+title: Künstliche Intelligenz (KI) zur Verbesserung der Ersteinschätzung der Infektiosität von Patienten mit Tuberkulose
+author: Friederichs H, Meyer-Oschatz F, Marschall B, Schaaf B, Unnewehr M
+date: 2019-09-25
+output: 
+  html_document:
+    includes:
+      after_body: disqus.html
+bibliography: Papers_all.bib
+csl: biomed-central.csl
+---
+# Hintergrund/Fragestellung
+Etwa ein Drittel der Weltbevölkerung ist mit Tuberkuloseerregern infiziert und die Erkrankung führt die weltweite Statistik der tödlichen Infektionskrankheiten an. Aktuell erkranken nur etwa fünf bis zehn Prozent der mit Mycobacterium tuberculosis Infizierten tatsächlich im Laufe ihres Lebens, die Krankheit wird aber immer häufiger durch medikamentenresistente Tuberkulosestämme verursacht. Auch in Deutschland war in letzter Zeit ein Anstieg der Erkrankungen an Tuberkulose zu verzeichnen, bedingt durch die erhöhte Zuwanderung im Herbst 2015. Somit kann sich die Infektiosität dieser Erkrankung kurzfristig ändern und erfordert klinische Entscheidungssysteme, die sich entsprechend adaptieren können. 
+Dafür eignen sich sog. Machine-Learning-Algorithmen. Machine Learning beinhaltet eine Reihe von Methoden, die es Computern prinzipiell ermöglichen, aus Daten zu lernen, um Vorhersagen zu treffen und diese auch zu verbessern. Diese so generierten Vorhersagen haben aber den Nachteil, dass sie für die Anwender fast immer intransparent sind (Black-Box-Phänomen). Mediziner*innen sind es dagegen gewohnt, mit Algorithmen und/oder Entscheidungsbäumen zu arbeiten, deren einzelne Schritte nachvollziehbar und anpassbar sind und damit erforderliche Abweichungen erlauben. In dem hier skizzierten Projekt sollen die Vorteile aus beiden Systemen für die klinische Anwendung nutzbar gemacht werden und die Ersteinschätzung der Infektiosität von Patienten mit Tuberkulose verbessern. 
+
+# Methoden
+Unter Einsatz von Machine-Learning-Algorithmen sollen Entscheidungsbäume generiert werden (sog. Fast and Frugal Trees, siehe [@gigerenzer1999fast]), die Ärzt*innen ein bewusstes und verantwortungsvolles Entscheiden bezüglich der Infektiosität von Patienten mit Tuberkulose erlauben. Es konnten die Daten von 299 Patienten (226 männlich (75,6 %), Alter im Durchschnitt 40,4 Jahre) einbezogen werden, die im Zeitraum vom 07/2008 bis 12/2016 in einer großen Klinik für Pneumologie mit infektiologischem Schwerpunkt (Haus der Maximalversorgung) mit der Entlassungshauptdiagnose „Tuberkulose der Atemwege“ behandelt und bezüglich ihrer Infektiosität dichotom (hoch-ansteckend [n=151, 50,5 %] vs. schwach-ansteckend) eingeschätzt worden waren.
+
+# Vorläufige oder erwartete Ergebnisse, Ausblick
+Es konnten 182 vollständige Datensätze zur Generierung von Entscheidungsbäumen eingeschlossen werden. Diese werden im Rahmen des Kongresses vorgestellt. Das daraus entwickelte Entscheidungshilfesystem soll in Zukunft im klinischen Setting eingesetzt und seine Effektivität erprobt werden.
+                                                    
+# Referenzen
+                                                                                                      
