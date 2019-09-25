@@ -12,17 +12,8 @@ navbar:
     - text: "Person"
       icon: fa-user
       href: Friederichs.html
-    - text: "Schwimmen"
-      icon: fa-swimmer
-      href: Workshop_article.html
     - text: "Arzt"
       icon: fa-user-md
       href: Abstract_EbM_2020.html
-    - text: "Beiträge"
-      icon: fa-archive
-      href: 
-    - text: "Blog"
-      icon: fa-rss
-      href: https://friedeh.github.io/Blog/
       
 output: radix::radix_article
